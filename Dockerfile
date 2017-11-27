@@ -19,7 +19,7 @@ RUN \
 	pycryptodomex && \
 
 # install app
- git clone --depth 1 https://github.com/JonnyWong16/plexpy /app/plexpy && \
+ git clone --depth 1 --branch v2 https://github.com/JonnyWong16/plexpy /app/plexpy && \
 
 # cleanup
  apk del --purge \
